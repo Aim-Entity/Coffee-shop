@@ -6,13 +6,13 @@
 
 body {
   font-family: "Montserrat";
-  color: white;
+  background-color: #f3f3f3;
   overflow-x: hidden;
 }
 
 /* SECTION 1 */
 
-.s1{
+.s1 {
   height: 100vh;
 }
 
@@ -40,6 +40,7 @@ nav {
   font-style: normal;
   font-weight: normal;
   font-size: 65px;
+  color: white;
 }
 
 .nav-link {
@@ -90,8 +91,8 @@ nav {
 
 /* SECTION 2 */
 
-.s2{
-  background: #fff;
+.s2 {
+  background: #f3f3f3;
   width: 100%;
   height: 100vh;
   position: relative;
@@ -107,7 +108,6 @@ nav {
   font-weight: 500;
   font-size: 32px;
 
-
   color: #000000;
 }
 
@@ -118,7 +118,7 @@ nav {
   margin-top: 5%;
 }
 
-.s3{
+.s3 {
   position: relative;
   top: 20vh;
   width: 100%;
@@ -129,10 +129,10 @@ nav {
 }
 
 .s3-left {
-  background-color: #9A8177;
+  background-color: #9a8177;
 }
 
-.s3-right{
+.s3-right {
   object-fit: cover;
 }
 
@@ -144,18 +144,20 @@ nav {
   font-size: 38px;
 
   letter-spacing: 0.35em;
+  color: white;
 }
 
-.s3-cont-par{
+.s3-cont-par {
   width: 400px;
   height: 87px;
   margin-top: 4px;
   line-height: 40px;
 
   font-size: 24px;
+  color: white;
 }
 
-.s3-btn{
+.s3-btn {
   width: 205px;
   height: 55px;
   border: none;
@@ -172,4 +174,48 @@ nav {
 .s3-cont-text {
   margin-left: 12%;
   margin-top: 12%;
+}
+
+.s4 {
+  height: 100vh;
+  background-color: #f3f3f3;
+
+  margin-top: 30vh;
+}
+
+.s4-title {
+  width: 100%;
+  margin-top: 240px;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.perk-par {
+  width: 213px;
+  height: 101px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 31px;
+
+  color: #000000;
+}
+
+.perk {
+  display: flex;
+  align-items: center;
+  margin: 60px 5px 5px 0;
+}
+
+.perk-cont {
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
