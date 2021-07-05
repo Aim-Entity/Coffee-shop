@@ -32,7 +32,7 @@ nav {
   height: 137px;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 35px 0px 35px;
+  padding: 0px 7% 0px 7%;
 }
 
 .nav-title {
@@ -118,6 +118,8 @@ nav {
   margin-top: 5%;
 }
 
+/* SECTION 3 */
+
 .s3 {
   position: relative;
   top: 20vh;
@@ -176,6 +178,8 @@ nav {
   margin-top: 12%;
 }
 
+/* SECTION 4 */
+
 .s4 {
   height: 100vh;
   background-color: #f3f3f3;
@@ -211,11 +215,285 @@ nav {
 .perk {
   display: flex;
   align-items: center;
-  margin: 60px 5px 5px 0;
+  margin-top: 60px;
+}
+
+.beans {
+  margin-left: 7%;
+}
+
+.app {
+  margin-right: 7%;
 }
 
 .perk-cont {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   position: relative;
-  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.testimonial {
+  width: 300px;
+  height: 282px;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.t1 {
+  margin-left: 7%;
+}
+
+.t2 {
+  margin-right: 7%;
+}
+
+.test-par {
+  width: 90%;
+
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+
+  color: #000000;
+  margin-top: 50px;
+}
+
+.test-rating {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 25px;
+
+  color: #ecd7bc;
+}
+
+.test-name {
+  font-size: 18px;
+  margin-top: 40px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+/* SECTION 5 */
+
+.s5 {
+}
+
+.s5 footer {
+  margin-top: 50vh;
+  width: 100%;
+  height: 215px;
+
+  background: #9a8177;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 88px;
+
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.socials {
+  margin-right: 88px;
+
+  font-size: 24px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 667px) {
+  .hero-title {
+    color: #ffffff;
+
+    margin: 0 auto;
+    margin-top: 25%;
+
+    width: 329px;
+
+    font-weight: 500;
+    font-size: 24px;
+
+    text-align: center;
+  }
+
+  .hero-btn {
+    margin-top: -10%;
+  }
+
+  .iced_title {
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    padding-top: 15%;
+  }
+
+  .iced_group {
+    width: 338px;
+    margin-top: 20%;
+  }
+
+  .s2 {
+    height: 50vh;
+  }
+
+  .s3 {
+    grid-template-columns: 100%;
+  }
+
+  .s3-cont-text {
+    margin-left: 0;
+    margin-top: 12%;
+  }
+
+  .s3-cont-title,
+  .s3-cont-par {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .s3-cont-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 17%;
+    height: fit-content;
+    width: 70%;
+    line-height: 55px;
+  }
+
+  .s3-cont-par {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 12%;
+
+    color: #ffffff;
+  }
+
+  .s3-right {
+    display: none;
+  }
+
+  .s3-btn {
+    width: 205px;
+    height: 55px;
+    border: none;
+    background: #ecd7bc;
+    border-radius: 3px;
+
+    font-weight: 500;
+    font-size: 21px;
+
+    color: #000000;
+    margin-top: 20%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .s4-title {
+    width: 100%;
+    margin-top: 5%;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .perk-cont {
+    flex-direction: column;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    left: 0%;
+    transform: translateX(0%);
+  }
+
+  .beans {
+    margin-left: 0%;
+  }
+
+  .app {
+    margin-right: 0%;
+  }
+
+  .testimonial-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .t1 {
+    margin-left: 0%;
+  }
+
+  .t2 {
+    margin-right: 0%;
+  }
+
+  .testimonial {
+    margin-top: 40px;
+  }
+
+  .s5 {
+    margin-top: 1100px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .copyright,
+  .socials {
+    margin: 0;
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 24px;
+    margin-top: 15%;
+  }
+
+  .socials {
+    font-size: 18px;
+    margin-bottom: 15%;
+  }
 }
