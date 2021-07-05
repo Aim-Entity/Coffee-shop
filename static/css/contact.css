@@ -54,6 +54,77 @@ nav {
   margin-right: 52px;
 }
 
+.s2 {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 7%;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 50px;
+}
+
+.form-btn {
+  width: 195px;
+  height: 50px;
+  border: none;
+  background: #ecd7bc;
+  border-radius: 3px;
+
+  font-weight: 500;
+  font-size: 21px;
+
+  color: #000000;
+  margin-top: 20px;
+}
+
+.name,
+.email {
+  width: 46.7%;
+  height: 55px;
+  padding-left: 20px;
+
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-family: "montserrat";
+  color: rgb(21, 21, 21);
+}
+
+.name-label,
+.email-label,
+.message-label {
+  font-size: 20px;
+  margin-bottom: 8px;
+
+  color: #000000;
+}
+
+.email-label,
+.message-label {
+  margin-top: 30px;
+}
+
+.message {
+  width: 46.7%;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+  padding-left: 20px;
+
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+}
+
 footer {
   margin-top: 50vh;
   width: 100%;
