@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: #f3f3f3;
+  overflow-x: hidden;
+}
+
+/* SECTION 1 */
+
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120vh;
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 137px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7% 0px 7%;
+  background-color: #ecd7bc;
+}
+
+.nav-title {
+  font-family: "Sacramento";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  color: #000;
+}
+
+.nav-link {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+}
+
+.product-link {
+  margin-right: 52px;
+}
+
+footer {
+  margin-top: 50vh;
+  width: 100%;
+  height: 215px;
+
+  background: #9a8177;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 88px;
+
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.socials {
+  margin-right: 88px;
+
+  font-size: 24px;
+  color: #ffffff;
+}
