@@ -87,6 +87,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   margin-top: 5%;
+  cursor: pointer;
 }
 
 /* SECTION 2 */
@@ -171,6 +172,7 @@ nav {
 
   color: #000000;
   margin-top: 20%;
+  cursor: pointer;
 }
 
 .s3-cont-text {
