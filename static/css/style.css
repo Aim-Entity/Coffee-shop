@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Montserrat";
   background-color: #f3f3f3;
@@ -41,6 +45,10 @@ nav {
   font-weight: normal;
   font-size: 65px;
   color: white;
+}
+
+.nav-title a {
+  color: #fff;
 }
 
 .nav-link {
@@ -320,6 +328,14 @@ nav {
 
   font-size: 24px;
   color: #ffffff;
+}
+
+nav li a {
+  color: white;
+}
+
+.nav-mobile {
+  display: none;
 }
 
 @media only screen and (max-width: 667px) {
