@@ -211,6 +211,7 @@ footer {
 
 nav li a {
   color: black;
+  text-decoration: underline;
 }
 
 .nav-mobile {
