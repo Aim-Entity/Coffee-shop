@@ -1,0 +1,8 @@
+1) Have 4 sets
+2) The sets will carosel with the pagination
+3) Within each set, there will be 5 coffees
+4) Once a coffee is selected within a set, the appropiate header, paragraph and img will be subsituted into the empty elements. This will be done via a hash table or array list within js.
+5) Store what the user has chosen within js so when they order, the items can be stored into an object
+6) Repeat for the coffee makers
+
+Important Note - The class names of the element needs to be appropaitly named if to be used as a key

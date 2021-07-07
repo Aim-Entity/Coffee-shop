@@ -64,11 +64,116 @@ nav li a {
 .s2-title {
   width: 100%;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 10%;
 
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
 
   color: #000000;
+}
+
+.option-box {
+  width: 95%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 60px;
+
+  background: #eeeeee;
+
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.first-set {
+  background-color: #cbcbcb;
+  height: 100%;
+}
+
+.option-details {
+  display: flex;
+  align-items: center;
+}
+
+.option-deactive {
+  display: none;
+}
+
+.details {
+  margin-left: 5%;
+}
+
+.detail-title {
+  width: 474px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 64px;
+
+  color: #9a8177;
+}
+
+.detail-sub {
+  width: 523px;
+  margin-bottom: 65px;
+
+  font-weight: 500;
+  font-size: 48px;
+
+  color: #9a8177;
+}
+
+.detail-par {
+  width: 377px;
+
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #9a8177;
+}
+
+.detail-img {
+  position: relative;
+  right: 5%;
+  object-fit: cover;
+}
+
+.di-mocha {
+  right: 10%;
+}
+
+.di-espresso,
+.di-affogato,
+.di-frappucino {
+  right: 12%;
+}
+
+.di-cappuccino,
+.di-iced_coffee,
+.di-iced_espresso {
+  right: -5%;
+}
+
+.nav-img-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 120px;
+  height: 120px;
+  background-color: #454545;
+}
+
+.nav-img-cont h3 {
+  color: #ecd7bc;
+
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.americano {
+  background-color: #eeeeee;
+}
+
+.nav-img-cont .sn-americano {
+  color: #454545;
 }
