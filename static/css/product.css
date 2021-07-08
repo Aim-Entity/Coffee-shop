@@ -99,6 +99,10 @@ nav li a {
   display: none;
 }
 
+.nav-deactive {
+  display: none;
+}
+
 .details {
   margin-left: 5%;
 }
@@ -167,7 +171,7 @@ nav li a {
   color: #ecd7bc;
 
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .americano {
