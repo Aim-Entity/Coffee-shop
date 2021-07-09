@@ -61,6 +61,21 @@ nav li a {
   display: none;
 }
 
+.nav-fixed {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7% 0px 7%;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  background-color: #ecd7bc;
+
+  transition: ease-in 300ms;
+}
+
 .s2-title {
   width: 100%;
   text-align: center;
@@ -96,6 +111,11 @@ nav li a {
 }
 
 .option-details {
+  display: flex;
+  align-items: center;
+}
+
+.option-details-coffee {
   display: flex;
   align-items: center;
 }
@@ -188,11 +208,37 @@ nav li a {
   font-size: 16px;
 }
 
+.nav-img-cont-coffee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 120px;
+  height: 120px;
+  background-color: #454545;
+  cursor: pointer;
+
+  transition: 200ms ease-in;
+}
+
+.nav-img-cont-coffee h3 {
+  color: #ecd7bc;
+
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.french_press,
 .americano {
   background-color: #eeeeee;
 }
 
 .nav-img-cont .sn-americano {
+  color: #454545;
+}
+
+.nav-img-cont-coffee .sn-french_press,
+.sn-americano {
   color: #454545;
 }
 

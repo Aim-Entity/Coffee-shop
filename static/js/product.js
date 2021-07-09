@@ -20,7 +20,6 @@ function detailReveal() {
         textElement.style.color = "#454545"
         
         userPicked = userPicked.className.split(" ")[1].split("-")[1]
-        console.log(userPicked)
       }
 
       else {
@@ -39,10 +38,62 @@ function detailReveal() {
         textElement.style.color = "#454545"
 
         userPicked = userPicked.className.split(" ")[0]
-        console.log(userPicked)
       }
 
       let current = document.querySelectorAll(".option-details").forEach((x) => {
+        x.classList.add("option-deactive")
+      })
+
+      const newDetail = document.querySelector(`.d-${userPicked}`).parentElement
+      newDetail.classList.remove("option-deactive")
+    })
+  })
+  // End of retrieve
+}
+
+function detailCoffeeMakerReveal() {
+  // Retrieve what coffee user has asked for
+  document.querySelectorAll(".nav-img-cont-coffee").forEach((navDiv) => {
+    navDiv.addEventListener("click", (event) => {
+      let userPicked = event.target
+
+      if(userPicked.className.split(" ")[0] == "side-nav-title-coffee") {
+        let fatherDiv = userPicked.parentElement
+        let textElement = userPicked
+
+        let allFatherDiv = document.querySelectorAll(".nav-img-cont-coffee").forEach((div) => {
+          div.style.background = "#454545"
+        })
+
+        let allTextElement = document.querySelectorAll(".side-nav-title-coffee").forEach((text) => {
+          text.style.color = "#ECD7BC"
+        })
+
+        fatherDiv.style.background = "#EEEEEE"
+        textElement.style.color = "#454545"
+        
+        userPicked = userPicked.className.split(" ")[1].split("-")[1]
+      }
+
+      else {
+        let fatherDiv = userPicked
+        let textElement = userPicked.children[0]
+
+        let allFatherDiv = document.querySelectorAll(".nav-img-cont-coffee").forEach((div) => {
+          div.style.background = "#454545"
+        })
+
+        let allTextElement = document.querySelectorAll(".side-nav-title-coffee").forEach((text) => {
+          text.style.color = "#ECD7BC"
+        })
+
+        fatherDiv.style.background = "#EEEEEE"
+        textElement.style.color = "#454545"
+
+        userPicked = userPicked.className.split(" ")[0]
+      }
+
+      let current = document.querySelectorAll(".option-details-coffee").forEach((x) => {
         x.classList.add("option-deactive")
       })
 
@@ -88,3 +139,4 @@ function pagination() {
 
 pagination()
 detailReveal()
+detailCoffeeMakerReveal()

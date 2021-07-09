@@ -13,8 +13,6 @@ function fixedNav() {
   window.addEventListener("scroll", (event) => {
     let position = window.scrollY > 100
     nav.classList.toggle("nav-fixed", position)
-    
-    console.log(position)
   })
 }
 
