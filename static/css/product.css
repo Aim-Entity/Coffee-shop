@@ -167,6 +167,11 @@ nav li a {
   width: 50%;
 }
 
+.detail-img-coffee {
+  position: relative;
+  width: 25%;
+}
+
 .di-mocha {
   right: 10%;
 }
@@ -261,7 +266,7 @@ nav li a {
 
 .pagination {
   display: flex;
-  width: 10%;
+  width: 25%;
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 12vh;
@@ -300,4 +305,204 @@ nav li a {
 
 .nav-mobile {
   display: none;
+}
+
+.form {
+  width: 95%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  background-color: #eeeeee;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 50px;
+}
+
+.form-btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 195px;
+  height: 50px;
+  border: none;
+  background: #ecd7bc;
+  border-radius: 3px;
+
+  font-weight: 500;
+  font-size: 21px;
+
+  color: #000000;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.name,
+.phone {
+  width: 50%;
+  height: 55px;
+  padding-left: 20px;
+
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-family: "montserrat";
+  color: rgb(21, 21, 21);
+}
+
+.name-label,
+.phone-label,
+.message-label {
+  font-size: 20px;
+  margin-bottom: 8px;
+
+  color: #000000;
+}
+
+.phone-label,
+.message-label {
+  margin-top: 30px;
+}
+
+.message {
+  width: 50%;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+  padding-left: 20px;
+
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-family: "montserrat";
+  color: rgb(21, 21, 21);
+}
+
+.name-form {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 667px) {
+  .detail-title,
+  .detail-title-coffee {
+    width: 474px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 54px;
+
+    color: #9a8177;
+  }
+
+  .detail-sub,
+  .detail-sub-coffee {
+    width: 523px;
+    margin-bottom: 65px;
+
+    font-weight: 500;
+    font-size: 38px;
+
+    color: #9a8177;
+  }
+
+  .detail-par,
+  .detail-par-coffee {
+    width: 40%;
+
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #9a8177;
+  }
+
+  .detail-img {
+    right: 45%;
+  }
+
+  .detail-img-coffee {
+    right: 20%;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .option-details,
+  .option-details-coffee {
+    display: none;
+  }
+
+  .option-box {
+    width: 240px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    background: none;
+
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .pagination {
+    margin-top: 0;
+    position: relative;
+    bottom: 120px;
+    width: 50%;
+  }
+
+  .first-set,
+  .second-set {
+    background: none;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .nav-deactive {
+    display: none;
+  }
+
+  .s5 {
+    margin-top: 200px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .copyright,
+  .socials {
+    margin: 0;
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 24px;
+    margin-top: 15%;
+  }
+
+  .socials {
+    font-size: 18px;
+    margin-bottom: 15%;
+  }
+
+  .form {
+    background: none;
+  }
+
+  .name,
+  .phone,
+  .message {
+    width: 85%;
+  }
 }

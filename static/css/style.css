@@ -536,3 +536,59 @@ nav li a {
     margin-bottom: 15%;
   }
 }
+
+@media only screen and (min-width: 1400px) {
+  .s2 {
+    height: 600px;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .s1 {
+    height: 60vh;
+  }
+
+  .hero-title {
+    font-size: 64px;
+    width: 60%;
+  }
+
+  .btn {
+    width: 300px;
+    height: 75px;
+    font-size: 27px;
+  }
+
+  .s3-right {
+    height: 100%;
+  }
+
+  .s3-cont-title {
+    font-size: 56px;
+  }
+
+  .s3-cont-par {
+    font-size: 34px;
+    margin-top: 55px;
+  }
+
+  .s3 {
+    height: 800px;
+  }
+
+  .s3-btn {
+    width: 300px;
+    height: 75px;
+    font-size: 27px;
+  }
+
+  .s4 {
+    height: 500px;
+  }
+
+  .s5 {
+    margin: 0;
+  }
+}
