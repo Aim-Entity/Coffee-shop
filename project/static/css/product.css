@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: #f3f3f3;
+  overflow-x: hidden;
+}
+
+/* SECTION 1 */
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 137px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7% 0px 7%;
+  background-color: #ecd7bc;
+}
+
+.nav-title {
+  font-family: "Sacramento";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  color: black;
+}
+
+.nav-title a {
+  color: black;
+}
+
+.nav-link {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.product-link {
+  margin-right: 52px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: underline;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.nav-fixed {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7% 0px 7%;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  background-color: #ecd7bc;
+
+  transition: ease-in 300ms;
+}
+
+.s2-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 10%;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+
+  color: #000000;
+}
+
+.option-box {
+  width: 95%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 60px;
+
+  background: #eeeeee;
+
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.side-nav-imgs {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.first-set {
+  background-color: #cbcbcb;
+  height: 600px;
+}
+
+.option-details {
+  display: flex;
+  align-items: center;
+}
+
+.option-details-coffee {
+  display: flex;
+  align-items: center;
+}
+
+.option-deactive {
+  display: none;
+}
+
+.nav-deactive {
+  display: none;
+}
+
+.details {
+  margin-left: 5%;
+}
+
+.detail-title {
+  width: 474px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 64px;
+
+  color: #9a8177;
+}
+
+.detail-sub {
+  width: 523px;
+  margin-bottom: 65px;
+
+  font-weight: 500;
+  font-size: 48px;
+
+  color: #9a8177;
+}
+
+.detail-par {
+  width: 377px;
+
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #9a8177;
+}
+
+.detail-img {
+  position: relative;
+  right: 5%;
+  object-fit: cover;
+  width: 50%;
+}
+
+.detail-img-coffee {
+  position: relative;
+  width: 25%;
+}
+
+.di-mocha {
+  right: 10%;
+}
+
+.di-espresso,
+.di-affogato,
+.di-frappucino {
+  right: 12%;
+}
+
+.di-cappuccino,
+.di-iced_coffee,
+.di-iced_espresso {
+  width: 40%;
+}
+
+.di-iced_coffee,
+.di-iced_espresso {
+  right: -5%;
+}
+
+.nav-img-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 120px;
+  height: 120px;
+  background-color: #454545;
+  cursor: pointer;
+
+  transition: 200ms ease-in;
+}
+
+.nav-img-cont h3 {
+  color: #ecd7bc;
+
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.nav-img-cont-coffee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 120px;
+  height: 120px;
+  background-color: #454545;
+  cursor: pointer;
+
+  transition: 200ms ease-in;
+}
+
+.nav-img-cont-coffee h3 {
+  color: #ecd7bc;
+
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.french_press,
+.americano {
+  background-color: #eeeeee;
+}
+
+.nav-img-cont .sn-americano {
+  color: #454545;
+}
+
+.nav-img-cont-coffee .sn-french_press,
+.sn-americano {
+  color: #454545;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 200px;
+
+  border: 4px solid #9a8177;
+  box-sizing: border-box;
+}
+
+.active-circ {
+  width: 45px;
+  height: 45px;
+  border-radius: 200px;
+
+  background: #9a8177;
+}
+
+.pagination {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 12vh;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 35vh;
+  width: 100%;
+  height: 215px;
+
+  background: #9a8177;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 88px;
+
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.socials {
+  margin-right: 88px;
+
+  font-size: 24px;
+  color: #ffffff;
+}
+
+nav li a {
+  color: black;
+  text-decoration: underline;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.form {
+  width: 95%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  background-color: #eeeeee;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 50px;
+}
+
+.form-btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 195px;
+  height: 50px;
+  border: none;
+  background: #ecd7bc;
+  border-radius: 3px;
+
+  font-weight: 500;
+  font-size: 21px;
+
+  color: #000000;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.name,
+.phone {
+  width: 50%;
+  height: 55px;
+  padding-left: 20px;
+
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-family: "montserrat";
+  color: rgb(21, 21, 21);
+}
+
+.name-label,
+.phone-label,
+.message-label {
+  font-size: 20px;
+  margin-bottom: 8px;
+
+  color: #000000;
+}
+
+.phone-label,
+.message-label {
+  margin-top: 30px;
+}
+
+.message {
+  width: 50%;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+  padding-left: 20px;
+
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-family: "montserrat";
+  color: rgb(21, 21, 21);
+}
+
+.name-form {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 667px) {
+  .detail-title,
+  .detail-title-coffee {
+    width: 474px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 54px;
+
+    color: #9a8177;
+  }
+
+  .detail-sub,
+  .detail-sub-coffee {
+    width: 523px;
+    margin-bottom: 65px;
+
+    font-weight: 500;
+    font-size: 38px;
+
+    color: #9a8177;
+  }
+
+  .detail-par,
+  .detail-par-coffee {
+    width: 40%;
+
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #9a8177;
+  }
+
+  .detail-img {
+    right: 45%;
+  }
+
+  .detail-img-coffee {
+    right: 20%;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .option-details,
+  .option-details-coffee {
+    display: none;
+  }
+
+  .option-box {
+    width: 240px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    background: none;
+
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .pagination {
+    margin-top: 0;
+    position: relative;
+    bottom: 120px;
+    width: 50%;
+  }
+
+  .first-set,
+  .second-set {
+    background: none;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .nav-deactive {
+    display: none;
+  }
+
+  .s5 {
+    margin-top: 200px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .copyright,
+  .socials {
+    margin: 0;
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 24px;
+    margin-top: 15%;
+  }
+
+  .socials {
+    font-size: 18px;
+    margin-bottom: 15%;
+  }
+
+  .form {
+    background: none;
+  }
+
+  .name,
+  .phone,
+  .message {
+    width: 85%;
+  }
+}
